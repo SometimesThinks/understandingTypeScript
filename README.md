@@ -1,1 +1,1 @@
-# UnderstandingTypeScript
+# understandingTypeScript
