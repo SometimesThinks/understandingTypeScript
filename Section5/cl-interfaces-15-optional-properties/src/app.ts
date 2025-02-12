@@ -13,7 +13,7 @@ interface Named {
   readonly name?: string;
   outputName?: string;
 }
-
+// ? -> 선택적인 존재 여부
 interface Greetable extends Named {
   greet(phrase: string): void;
 }

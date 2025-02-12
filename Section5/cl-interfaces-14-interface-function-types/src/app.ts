@@ -2,7 +2,7 @@
 interface AddFn {
   (a: number, b: number): number;
 }
-
+// type 사용이 더 일반적이나, interface 사용하기도 함
 let add: AddFn;
 
 add = (n1: number, n2: number) => {

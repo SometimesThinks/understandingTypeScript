@@ -1,11 +1,11 @@
 interface Named {
   readonly name: string;
 }
-
+// readonly: 객체 초기화 시에만 값 설정 가능
 interface Greetable extends Named {
   greet(phrase: string): void;
 }
-
+// 인터페이스 확장(extends) -> Named 프로퍼티 + Greetable 프로퍼티 필수
 class Person implements Greetable {
   name: string;
   age = 30;
