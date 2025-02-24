@@ -30,13 +30,13 @@
 
 // printOutput(add(5));
 
-const hobbies = ["Sports", "Cooking"];
-const activeHobbies = ["Hiking"];
+const hobbies = ['Sports', 'Cooking'];
+const activeHobbies = ['Hiking'];
 
 activeHobbies.push(...hobbies);
 
 const person = {
-  firstName: "Max",
+  firstName: 'Max',
   age: 30,
 };
 const copiedPerson = { ...person };

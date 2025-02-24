@@ -1,4 +1,4 @@
-const userName = "Max";
+const userName = 'Max';
 // userName = 'Maximilian';
 let age = 30;
 
@@ -25,10 +25,10 @@ console.log(add(2, 5));
 const printOutput: (a: number | string) => void = (output) =>
   console.log(output);
 
-const button = document.querySelector("button");
+const button = document.querySelector('button');
 
 if (button) {
-  button.addEventListener("click", (event) => console.log(event));
+  button.addEventListener('click', (event) => console.log(event));
 }
 
 printOutput(add(5, 2));
