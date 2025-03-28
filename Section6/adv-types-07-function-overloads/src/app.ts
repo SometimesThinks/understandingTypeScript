@@ -22,7 +22,7 @@ type Combinable = string | number;
 type Numeric = number | boolean;
 
 type Universal = Combinable & Numeric;
-// function overloading
+// function overloading 구문
 function add(a: number, b: number): number;
 function add(a: string, b: string): string;
 function add(a: string, b: number): string;
@@ -33,7 +33,7 @@ function add(a: Combinable, b: Combinable) {
   }
   return a + b;
 }
-
+// a, b 모두 number일 때, split(' ') 불가
 const result = add('Max', ' Schwarz');
 result.split(' ');
 
